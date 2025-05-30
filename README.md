@@ -29,8 +29,11 @@
   <li>채팅방 = chat_room.html</li>
 </ul>
 
+<h1>채팅리스트</h1>
 <img src="https://github.com/holyshitcode/software-project-ll/blob/main/chat_list.png">
+<h1>채팅방 등록</h1>
 <img src="https://github.com/holyshitcode/software-project-ll/blob/main/chat_enroll.png">
+<h1>채팅방</h1>
 <img src="https://github.com/holyshitcode/software-project-ll/blob/main/chat_room.png">
 
 </body>
