@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Rooms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1>Chat Rooms</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Chat Room ID</th>
+        <th>Creator</th>
+        <th>Current Member</th>
+        <th>Max Participants</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><a href="/chat/1">1</a></td>
+        <td>alice</td>
+        <td>3</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td><a href="/chat/2">2</a></td>
+        <td>bob</td>
+        <td>2</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td><a href="/chat/3">3</a></td>
+        <td>charlie</td>
+        <td>5</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td><a href="/chat/4">4</a></td>
+        <td>diana</td>
+        <td>1</td>
+        <td>3</td>
+    </tr>
+    </tbody>
+</table>
+<a href="/chat">Create a New Chat Room</a>
+</body>
+</html>
